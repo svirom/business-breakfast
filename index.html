@@ -54,8 +54,17 @@
       }
       table td[class="column_table"] {
         padding-left: 20px!important;
-        padding-right: 20px!important;
+        /* padding-right: 20px!important; */
       }
+      table[class="column_img"] {
+        width: 131px!important;
+      }
+      table td[class="email_title"] {
+        font-size: 26px!important;
+        line-height: 31px!important;
+      }
+    }
+    @media only screen and (max-width: 400px) {
       table[class="column_img"] {
         display: none!important;
       }
@@ -69,7 +78,7 @@
       <tr>
         <td valign="bottom">
 
-          <table width="640" cellpadding="0" bgcolor="#FFFFFF" cellspacing="0" border="0" align="center" style="max-width: 640px;" class="header_table">
+          <table width="676" cellpadding="0" bgcolor="#FFFFFF" cellspacing="0" border="0" align="center" style="max-width: 676px;" class="header_table">
             <tbody>
 
               <tr>
@@ -77,16 +86,7 @@
               </tr>
 
               <tr>
-                <td valign="top" width="101" align="left" style="padding-left: 38px; padding-right: 38px;" class="column-table">
-                  <!-- <table width="101" align="left" border="0" cellpadding="0" cellspacing="0" class="column_img">
-                    <tbody>
-                      <tr>
-                        <td valign="top">
-                          <img src="logo-ipay.png" alt="iPay Logo">
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table> -->
+                <td valign="top" width="101" align="left" style="padding-left: 38px; padding-right: 38px;" class="column_table">
                   <img src="logo-ipay.png" alt="iPay Logo">
                 </td>
               </tr>
@@ -97,46 +97,72 @@
 
               <tr>
                 
-                <td align="left" valign="top">
+                <td align="left" valign="top" style="padding-left: 38px;" class="column_table">
                   
-                  <table width="372" align="left" border="0" cellpadding="0" cellspacing="0" class="body_column">
+                  <table width="100%" align="left" bgcolor="#CCF1FD" border="0" cellpadding="0" cellspacing="0" class="body_column">
                     <tbody>
+
                       <tr>
-                        <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                        <td align="left" valign="top" style="padding-left: 20px;">
+                          <table width="100%" align="left" bgcolor="#CCF1FD" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+
+                                <td width="100%" align="left">
+                                  <table width="100%" align="left" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                      <tr>
+                                        <td height="17" style="font-size: 17px; line-height: 17px;">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td width="100%" align="left" style="color: #2A3D46; font-size: 46px; line-height: 52px; font-family: Arial, sans-serif; font-weight: bold;" class="email_title">Бізнес сніданок<br/> з iPay.ua</td>
+                                      </tr>
+                                      <tr>
+                                        <td height="17" style="font-size: 17px; line-height: 17px;">&nbsp;</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+
+                                <td width="100%" align="center" valign="bottom">
+                                  <table width="238" align="left" border="0" cellpadding="0" cellspacing="0" class="column_img" style="max-width: 238px;">
+                                    <tbody>
+                                      <tr>
+                                        <td height="4" style="font-size: 4px; line-height: 4px;">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="bottom">
+                                          <img src="white-coffee.png" alt="Coffee Image">
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
                       </tr>
-                      <tr>
-                        <td align="left" style="color: #2A3D46; font-size: 32px; line-height: 37px; font-family: Arial, sans-serif; font-weight: bold; padding-left: 10px;" class="column_table">Зустріч друзів</td>
-                      </tr>
-                      <tr>
-                        <td align="left" style="color: #2A3D46; font-size: 42px; line-height: 57px; font-family: Arial, sans-serif; font-weight: bold; padding-left: 10px;" class="column_table"><a rel="nofollow" style="color:#2A3D46; text-decoration:none;">iPay.ua</a></td>
+
+                      <!-- <tr>
+                        <td align="left" style="color: #2A3D46; font-size: 42px; line-height: 57px; font-family: Arial, sans-serif; font-weight: bold;" class="column_table"><a rel="nofollow" style="color:#2A3D46; text-decoration:none;">iPay.ua</a></td>
                       </tr>
                       <tr>
                         <td height="30" style="font-size: 30px; line-height: 30px;">&nbsp;</td>
                       </tr>
                       <tr>
-                        <td align="left" style="color: #2A3D46; font-size: 24px; line-height: 28px; font-family: Arial, sans-serif; font-weight: bold; padding-left: 10px;" class="column_table">Шановний Антон!</td>
+                        <td align="left" style="color: #2A3D46; font-size: 24px; line-height: 28px; font-family: Arial, sans-serif; font-weight: bold;" class="column_table">Шановний Антон!</td>
                       </tr>
                       <tr>
                         <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
                       </tr>
                       <tr>
-                        <td align="left" style="color: #2A3D46; font-size: 18px; line-height: 21px; font-family: Arial, sans-serif; padding-left: 10px;" class="column_table">Запрошуємо Вас на чергову щорічну зустріч друзів<br> компанії <a rel="nofollow" style="color:#ffffff; text-decoration:none;">iPay.ua</a></td>
+                        <td align="left" style="color: #2A3D46; font-size: 18px; line-height: 21px; font-family: Arial, sans-serif;" class="column_table">Запрошуємо Вас на чергову щорічну зустріч друзів<br> компанії <a rel="nofollow" style="color:#ffffff; text-decoration:none;">iPay.ua</a></td>
                       </tr>
                       <tr>
                         <td height="30" style="font-size: 30px; line-height: 30px;">&nbsp;</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-
-                <td width="100%" align="center" valign="top">
-                  <table width="190" align="left" border="0" cellpadding="0" cellspacing="0" class="column_img">
-                    <tbody>
-                      <tr>
-                        <td valign="top">
-                          <img src="owl.png" alt="Brain Image">
-                        </td>
-                      </tr>
+                      </tr> -->
                     </tbody>
                   </table>
                 </td>
